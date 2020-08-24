@@ -219,8 +219,16 @@ header h5{
 	transition: cursor 3s linear;
 }*/
 
+.col img{
+	width: 100%;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	display: block;
+}
 .portfolio-info .col:hover{
-	width: 50%;
+	width: 25%;
     transition: width 1s ease;
     -webkit-transition: width 1s ease;
     -moz-transition: width 1s ease;
